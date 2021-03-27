@@ -13,6 +13,8 @@ jobs:
     steps:
     - name: Download
       run: |
+        curl https://image.thum.io/get/width/1024/crop/768/https://www.zxmacc.cf/ -o www.zxmacc.cf.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://blog.zxmacc.cf/ -o blog.zxmacc.cf.jpg
         curl https://image.thum.io/get/width/1024/crop/768/https://blog.cyfan.top/ -o blog.cyfan.top.jpg   
         curl https://image.thum.io/get/width/1024/crop/768/https://blog.pangao.vip/ -o blog.pangao.vip.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://www.kindyear.cn/ -o www.kindyear.cn.jpg 
